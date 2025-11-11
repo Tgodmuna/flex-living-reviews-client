@@ -60,11 +60,13 @@ cd client
 npm install
 ```
 
-3. Create a `.env` file:
+3.Create a `.env` file:
 
 ```markdown
 
 REACT_APP_API_BASE=http://localhost:5000
+REACT_APP_ENVIRONMENT=development
+
 ```
 
 4. Run the app:
@@ -73,7 +75,8 @@ REACT_APP_API_BASE=http://localhost:5000
 npm start
 ```
 
-Frontend runs at: http://localhost:3000
+- Frontend runs at: <http://localhost:3000>
+- Deployed at: <https://glittering-figolla-746f7e.netlify.app/>
 
 ---
 
@@ -81,7 +84,9 @@ Frontend runs at: http://localhost:3000
 
 | Variable           | Description          | Example               |
 | ------------------ | -------------------- | --------------------- |
-| REACT_APP_API_BASE | Backend API base URL | http://localhost:5000 |
+| REACT_APP_API_BASE | Backend API base URL | <http://localhost:5000> |
+| REACT_APP_ENVIRONMENT| node_env config| production |
+
 
 ---
 
@@ -184,7 +189,7 @@ Example response:
 
 ## Example UI Flow
 
-1. Open Dashboard (http://localhost:3000)
+1. Open Dashboard (<http://localhost:3000>)
 2. Reviews are fetched from backend.
 3. Admin filters or approves reviews.
 4. Approved reviews are saved locally.
@@ -216,6 +221,6 @@ Example response:
 
 **ThankGod Munachimso Agu**  
 Full Stack Developer (React, Node.js, TypeScript)  
-Email: aguthankgod@gmail.com  
-GitHub: https://github.com/Tgodmuna  
-LinkedIn: https://linkedin.com/in/tg-agu
+Email: <aguthankgod@gmail.com>  
+GitHub: <https://github.com/Tgodmuna>  
+LinkedIn: <https://linkedin.com/in/tg-agu>

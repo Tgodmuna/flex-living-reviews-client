@@ -6,7 +6,7 @@ const API_BASE = 'http://localhost:5000';
 export async function fetchHostawayReviews(): Promise<NormalizedReview[]> {
   const resp = await axios.get(
     process.env.REACT_APP_ENVIRONMENT === 'production'
-      ? ` ${process.env.REACT_APP_SERVER_URL}/api/v1/reviews/hostaway`
+      ? `${process.env.REACT_APP_SERVER_URL}/api/v1/reviews/hostaway`
       : `${API_BASE}/api/v1/reviews/hostaway`
   );
   const data = resp.data;
